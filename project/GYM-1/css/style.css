@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+SC:wght@300;400;500;600;700&family=Creepster&family=Dancing+Script:wght@400;500;600;700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Ms+Madi&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik+Dirt&display=swap");
+/* font-family: 'Aboreto', cursive; */
+/* font-family: 'Cormorant SC', serif; */
+/* font-family: 'Creepster', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Edu NSW ACT Foundation', cursive; */
+/* font-family: 'Frank Ruhl Libre', serif; */
+/* font-family: 'Ms Madi', cursive; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto Mono', monospace; */
+/* font-family: 'Rubik Dirt', cursive; */
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Playfair Display", serif;
+}
+
+:root {
+  --color--1: #242424;
+  --color--2: #ec3642;
+  --color--3: #0693e3;
+  --color--4: #222d35;
+  --linear-1: rgba(6, 147, 227, 1);
+  --font--1: "Frank Ruhl Libre", serif;
+  --font--2: "Cormorant SC", serif;
+}
+
+/* nav,carosle  */
+
+.add-head {
+  background-color: var(--color--1);
+  color: white;
+  font-family: "Frank Ruhl Libre", serif;
+}
+.location-call span,
+.search-mart span {
+  font-size: 1.8vh;
+  /* opacity: 50%; */
+}
+.location-call span:hover {
+  color: var(--color--3);
+  transition: 0.5s;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  /* position: absolute;
+  z-index: 2;
+  width: 100vw; */
+}
+.search i,
+.mart i {
+  background-color: var(--color--3);
+  padding: 1vh;
+  border-radius: 45%;
+}
+.collapse ul li a {
+  color: white;
+}
+.collapse ul li a:hover {
+  color: var(--color--3);
+  border-bottom: 2px solid var(--color--3);
+}
+
+.carousel-caption {
+  animation: youanimation 3s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes youanimation {
+  20% {
+    transform: scale(0.1);
+    margin-bottom: 200px;
+  }
+  70% {
+    transform: rotateX(360deg);
+  }
+  100% {
+    color: #b3e0fa;
+  }
+}
+
+.carousel-item img {
+  animation: myanimation 2s infinite;
+  animation-fill-mode: forwards;
+}
+
+.carousel-caption p {
+  font-size: 5vh;
+  font-weight: 800;
+}
+.carousel-caption h1 span {
+  color: var(--color--3);
+}
+.carousel-caption h1 {
+  font-size: 12vh;
+  font-weight: 900;
+}
+
+/* img text  */
+
+.im {
+  overflow: hidden;
+}
+.im:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.img_texting {
+  background-color: var(--color--4);
+}
+.textee {
+  color: var(--color--3);
+  font-size: 2.5vh;
+}
+
+/* icon text */
+
+.icon_t i {
+  font-size: 10vh;
+  color: var(--color--3);
+}
+.icon_text_pro {
+  background-color: var(--color--4);
+}
+.i_t h5 {
+  color: #fff;
+  font-weight: 900;
+}
+.i_t span {
+  color: var(--color--3);
+  letter-spacing: 0.5vh;
+  font-weight: 600;
+}
+.i_p p {
+  font-weight: lighter;
+  color: #fff;
+  font-size: 3vh;
+  font-family: var(--font--2);
+  padding: 3vh 0;
+}
+.i_anc a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-family: var(--font--1);
+  font-size: 2vh;
+}
+.i_anc a:hover {
+  color: var(--color--3);
+}
+
+/* about_us */
+
+.ab_text span {
+  color: var(--color--3);
+  letter-spacing: 0.5vh;
+  font-family: var(--font--1);
+  font-weight: 600;
+}
+.ab_text h2 {
+  font-size: 6vh;
+  font-weight: 800;
+  margin: 3vh 0;
+}
+.ab_pera p,
+.ab_tic span {
+  font-family: var(--font--2);
+  font-size: 2.8vh;
+  font-weight: 900;
+}
+.ab_tic i {
+  font-size: 3vh;
+  color: var(--color--3);
+  margin-right: 2vh;
+}
+.ab_btn button {
+  padding: 2vh 4vh;
+  background-color: var(--color--1);
+  color: #fff;
+  font-family: var(--font--1);
+  border: none;
+  margin: 3vh 0;
+}
+.ab_btn button:hover {
+  background-color: var(--color--3);
+  transition: 0.5s;
+}
+
+/* our_classis */
+
+.our_classis {
+  background-color: var(--color--4);
+}
+.our_img {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.our_img:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.our_hed_text span {
+  color: var(--color--3);
+  font-weight: 600;
+  font-family: var(--font--1);
+  letter-spacing: 0.5vh;
+}
+.our_hed_text h2 {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0.5vh;
+  margin: 2vh 0;
+}
+.card {
+  border-color: var(--color--3);
+  background-color: var(--color--4);
+}
+.o_img {
+  overflow: hidden;
+}
+.o_img:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.card-title {
+  font-weight: 900;
+  color: #fff;
+}
+.card-text {
+  color: #fff;
+  font-family: var(--font--2);
+  text-transform: capitalize;
+}
+.card-body a {
+  text-decoration: none;
+  font-size: 2vh;
+  font-weight: 900;
+  font-family: var(--font--1);
+  color: var(--color--3);
+}
+.card-body a:hover {
+  color: #fff;
+}
+
+/* table */
+
+.table_text span {
+  color: var(--color--3);
+  font-size: 2.5vh;
+  font-weight: 600;
+  font-family: var(--font--1);
+  letter-spacing: 0.3vh;
+}
+.table_text h2 {
+  font-size: 4ch;
+  font-weight: 900;
+  margin: 5vh 0;
+}
+
+tbody span {
+  color: var(--color--3);
+  font-size: 2vh;
+  font-family: var(--font--1);
+  font-weight: 600;
+  letter-spacing: 0.2vh;
+}
+tbody p {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: var(--font--2);
+}
+
+/* gym_trainer */
+
+.gym_trainer {
+  background-image: url(../image/Background/image-1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.trainer {
+  background-color: var(--color--4);
+  padding: 4vh;
+}
+.tre_img img {
+  border-radius: 50%;
+}
+.tre_head h4 {
+  color: #fff;
+  font-weight: 900;
+  font-family: var(--font--1);
+}
+.tre_head span {
+  color: var(--color--3);
+  font-weight: 600;
+  font-family: var(--font--2);
+  letter-spacing: 0.5vh;
+}
+.tre_coma span {
+  color: var(--color--3);
+  font-size: 6vh;
+}
+.tre_pera p {
+  color: #fff;
+  font-weight: lighter;
+  font-family: var(--font--2);
+  font-size: 3vh;
+  padding: 4vh 0;
+}
+.tre_stare ul li {
+  list-style: none;
+  color: var(--color--3);
+}
+
+/* our_strongest_team */
+
+.our_stro_text span {
+  color: var(--color--3);
+  font-weight: 600;
+  font-family: var(--font--1);
+  letter-spacing: 0.3vh;
+}
+.our_stro_text h2 {
+  font-weight: 900;
+  font-size: 6vh;
+  letter-spacing: 0.5vh;
+  margin: 3vh 0;
+}
+.our_stro_text p {
+  font-weight: lighter;
+  font-family: var(--font--2);
+  font-size: 3vh;
+}
+.stro_img {
+  overflow: hidden;
+}
+.stro_img:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.stro_text {
+  text-align: center;
+}
+.stro_text h5 {
+  font-weight: 900;
+}
+.stro_text span {
+  color: var(--color--3);
+  font-family: var(--font--1);
+  font-weight: 600;
+  font-size: 2vh;
+  letter-spacing: 0.3vh;
+}
+
+/* gym_symbol */
+
+.gym_symbol{
+  background-color: var(--color--4);
+  position: relative;
+}
+.formate_box {
+  background-color: var(--color--3);
+  padding: 5vh 3vh;
+  position: absolute;
+  bottom: 18vh;
+}
+.formate_box span{
+  color: #fff;
+  font-family: var(--font--1);
+  font-weight: 600;
+  font-size: 2vh;
+}
+.formate_box h3{
+  color: #fff;
+  font-weight: 600;
+  padding: 3vh 0;
+}
+.fo_btn button{
+  padding: 1vh 5vh;
+  background-color: #fff;
+  color: var(--color--1);
+  border: none;
+  font-family: var(--font--2);
+  font-size: 2vh;
+  font-weight: 600;
+}
+.sym_img{
+  padding: 2vh 0;
+}
+.sym_img img:hover{
+  background-color: var(--color--3);
+}
+
+/* blog_post */
+
+
+.blog_post_text span{
+  color: var(--color--3);
+  font-family: var(--font--1);
+  font-size: 2.5vh;
+  letter-spacing: 0.3vh;
+  font-weight: 600;
+}
+.blog_post_text h2{
+  font-weight: 900;
+  font-size: 5vh;
+  letter-spacing: 0.5vh;
+  margin: 2vh 0 4vh 0;
+}
+.blog_img{
+  overflow: hidden;
+}
+.blog_img:hover img{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.blog_text {
+  text-align: center;
+}
+.blog_text span {
+  color: var(--color--3);
+  font-family: var(--font--1);
+  font-weight: 600;
+  font-size: 2vh;
+  letter-spacing: 0.3vh;
+}
+.blog_text p {
+  font-weight: lighter;
+  font-family: var(--font--2);
+  font-size: 3vh;
+  margin: 3vh 0;
+}
+.blog_text p:hover{
+  color: var(--color--3);
+}
+.blo_btn a {
+  text-decoration: none;
+  font-family: var(--font--1);
+  font-weight: 600;
+  font-size: 2.3vh;
+  color: #242424;
+}
+.blo_btn a:hover{
+  color: var(--color--3);
+}
+.blog_ico i{
+  font-size: 2.5vh;
+  margin-right: 1vh;
+  cursor: pointer;
+}
+.blog_ico i:hover{
+  color: var(--color--3);
+}
+.blog_ico span{
+  font-size: 3vh;
+  font-family: var(--font--1);
+  color: #242424;
+  cursor: pointer;
+}
+.blog_ico span:hover{
+  color: var(--color--3);
+}
+
+
+/* footer */
+
+footer{
+  background-color: var(--color--4);
+}
+
+.foo_text p{
+  font-family: var(--font--2);
+  color: #fff;
+  font-size: 3vh;
+  margin: 3vh 0;
+}
+
+.info h4,.service h4,.subscribe h4{
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.5vh;
+}
+
+.ser_list ul li,.info_list ul li{
+  list-style: none;
+  margin: 3vh 0;
+}
+.ser_list ul li a,.info_list ul li a{
+  text-decoration: none;
+  font-size: 2vh;
+  font-weight: 600;
+  color: #fff;
+}
+.sub_in input{
+  padding: 2vh 4vh;
+}
+.sub_btn button{
+  padding: 2vh 4vh;
+  background-color: var(--color--3);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-family: var(--font--1);
+  font-size: 2vh;
+  margin: 3vh 0;
+}
+
+
+.copy_name span,.call_mail span,.address_text span{
+  color: #fff;
+  font-family: var(--font--1);
+}
+.call_mail p a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.int_icon ul li{
+  list-style: none;
+}
+.int_icon ul li a{
+  color: #fff;
+  padding: 2vh;
+  border-radius: 0.5vh;
+  background-color: var(--color--3);
+}

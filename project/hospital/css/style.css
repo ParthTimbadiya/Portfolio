@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+SC:wght@300;400;500;600;700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Distressed&display=swap');
+
+   /* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.select-option{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+h1{
+    font-size: 5vh;
+}
+
+
+
+
+:root{
+    --color-1:rgb(46,200,166);
+    --color-2:#fff;
+    --color-3:rgb(34,169,139);
+    --color-4:orange;
+}
+.emial-address-call{
+    height: 50px;
+    background: var(--color-1);
+}
+.address,.call,.email,.login {
+    color: var(--color-2);
+}
+
+.email a{
+    text-decoration: none;
+    color: var(--color-2);
+}
+.login{
+    height: 50px;
+    width: 150px;
+    background: var(--color-3);
+}
+.login a{
+    text-decoration: none;
+    color: var(--color-2);
+}
+.navigation ul{
+    list-style: none;
+} 
+.navigation ul li{
+    list-style: none;
+    padding:30px 25px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: black;
+}
+.bg-image{
+    width: 100%;
+    height: 120vh;
+    background: url("../image/background/image-1.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text{
+    background: var(--color-2);
+    color:var(--color-1) ;
+}
+.text-1{
+    background: var(--color-1);
+    color: var(--color-2);
+    border:1px solid #fff;
+}
+.mobile-nav{
+    height: 103px;
+}
+.logo-back{
+    display:flex;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    background:var(--color-2);
+}
+.logo-back img{
+    width:95%;
+    height: 50%;
+}
+.hamburger{
+    color:rgb(44, 39, 39);
+    font-size:2rem;
+    padding-right:0.2rem;
+}
+.bg-text-1{
+    position: relative;
+    top: 100px;
+    margin-left: 50px;
+    line-height: 2px;
+    /* font-family: 'Rubik Dirt', cursive; */
+    font-family: 'Cormorant SC', serif;
+    /* font-family: 'Frank Ruhl Libre', serif; */
+    /* font-family: 'Playfair Display', serif; */
+   
+    /* font-family: 'Rubik Distressed', cursive; */
+}
+.bg-text-3{
+    margin-left: 50px;
+    position: relative;
+    top:130px;
+    font-family: 'Cormorant SC', serif;
+}
+.read{
+    position: relative;
+    top: 150px;
+    margin-left: 50px;
+}
+.main-box{
+    height: 40vh;
+    width: 297px;
+    border: 1px solid rgb(46,200,166);
+    margin: 50px -1px;
+    box-sizing: border-box;
+    background-color: #fff;
+
+}
+.main-box:hover{
+    border: 2px solid orange;
+}
+.main-box p{
+    text-align: center;
+    
+}
+.box-1{
+    clip-path: polygon(30% 0, 0 0, 0 0, 0 0, 0 100%);
+    background:var(--color-1);
+}
+.box-1:hover{
+    background:var(--color-4) ;
+}
+.box-1 img{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.box-2{
+    background-image: url(https://webstrot.com/html/deepmind/deepmind/images/icon_11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+    
+}
+.box-2 a{
+    text-decoration: none;
+    color: var(--color-1);
+    text-transform: capitalize;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.box-2 a:hover{
+    color: orange;
+}
+.box-2 h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.box-3{
+    background-image: url(https://webstrot.com/html/deepmind/deepmind/images/icon_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+    
+}
+.box-3 a{
+    text-decoration: none;
+    color: var(--color-1);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.box-3 a:hover{
+    color: orange;
+}
+.box-3 h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.box-4{
+    background-image: url(https://webstrot.com/html/deepmind/deepmind/images/icon_3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+    
+}
+.box-4 a{
+    text-decoration: none;
+    color: var(--color-1);
+    text-transform: capitalize;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.box-4 a:hover{
+    color: orange;
+}
+.box-4 h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.text-edit{
+    text-align: center;
+    line-height: 30px;
+}
+.text-edit a{
+    text-decoration: none;
+    color: black;
+}
+.time-image-text{
+    position: relative;
+    border: 1px solid rgb(46,200,166);
+    color: #fff;
+    margin: 50px -1px;
+    box-sizing: border-box;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://webstrot.com/html/deepmind/deepmind/images/appoint_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+}
+.mini-text a{
+    text-decoration: none;
+    color: var(--color-1);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.mini-text a:hover{
+    color: orange;
+}
+.mini-text h3:hover{
+    color: orange;
+}
+.mini-text-1 p:hover{
+    color: var(--color-1);
+}
+.mini-text h3{
+    text-align: center;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.dip-img-text{
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://webstrot.com/html/deepmind/deepmind/images/choose_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inliner-1{
+    position: absolute;
+    background-color: #aa9c9ca3;
+}
+.dip-text{
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.dip-text:hover{
+    border: 2px solid orange;
+}
+.meet-text-img{
+    background-color: #fff;
+}
+.meet-text h3,.text-style h3,.wel-sm-img,.wel-p-text{
+    text-align: center;
+}
+.meet-sm-img,.meet-img,.meet-img-caption{
+    text-align: center;
+}
+.meet-text-p{
+    text-align: center;
+}
+.bg-light{
+    height: 300px;
+}
+.wel-bg-img{
+    position: relative;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://webstrot.com/html/deepmind/deepmind/images/vedio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inliner-3{
+    position: absolute;
+    background-color: #343a40;
+}
+.location a,.date a{
+    text-decoration: none;
+    color: black;
+}
+.deta-staf-bg{
+    /* height: 50vh; */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://webstrot.com/html/deepmind/deepmind/images/counter_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.deta img{
+    background-color: #fff;
+}
+.deta img:hover{
+    background-color: var(--color-1);
+}
+.more a{
+    text-decoration: none;
+}
+.more a:hover{
+    color: orange;
+}
+.sying-img{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://webstrot.com/html/deepmind/deepmind/images/testimonial_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.form-group{
+    position: relative;
+    z-index: 1;
+}
+.map{
+    position: relative;
+    top: -150px;
+}
+
+.address ul li,.insta-six-img ul li{
+list-style: none;
+}
+.address ul li a{
+text-decoration: none;
+color: #fff;
+}
+.inst-user-opni{
+width: 70%;
+}
+.instagram-perent{
+width: 76%;
+}
+.six-poin ul li{
+list-style: square;
+color: var(--color-1);
+}
+.six-poin ul li a,.footer-p-text p{
+color: #757575;
+}
+.six-poin ul li a:hover{
+color: var(--color-1);
+}
+
+.opening-time{
+width: 245px;
+}
+.footer-2{
+height: 50vh;
+}
+.icon-four ul li{
+list-style: none;
+padding: 10px;
+}
+.icon-four ul li a{
+color: #757575;
+}
+
+.whatshap{
+height: 700px;
+}
+@keyframes myanimation{
+    10%{
+        margin-bottom: 50px;
+    }
+    75%{
+        padding: 40px;
+    }
+    100%{
+        margin-bottom: 50px;
+    }
+}

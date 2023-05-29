@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+SC:wght@300;400;500;600;700&family=Creepster&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Ms+Madi&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+SC:wght@300;400;500;600;700&family=Creepster&family=Dancing+Script:wght@400;500;600;700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Ms+Madi&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik+Dirt&display=swap");
+/* font-family: 'Aboreto', cursive; */
+/* font-family: 'Cormorant SC', serif; */
+/* font-family: 'Creepster', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Edu NSW ACT Foundation', cursive; */
+/* font-family: 'Frank Ruhl Libre', serif; */
+/* font-family: 'Ms Madi', cursive; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Roboto Mono', monospace; */
+/* font-family: 'Rubik Dirt', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: linear-gradient(rgb(239, 226, 210),rgb(240, 208, 208),rgb(239, 239, 143),rgb(195, 195, 243));
+}
+.navbar-toggler {
+  box-shadow: 6px 5px 3px -2px gray;
+}
+.navbar {
+  /* background: linear-gradient(rgb(231, 187, 104), rgb(216, 216, 158)); */
+  background: linear-gradient(rgb(231, 207, 175), rgb(236, 216, 180));
+  /* background-color: #fff; */
+  /* box-shadow: 2px 2px 4px 4px gray; */
+  width: 100%;
+}
+
+
+/* 
+.body{
+  height: 400vh;
+}
+::-webkit-scrollbar{
+   width: 2vh;
+}
+::-webkit-scrollbar-track{
+   background-color: #dddddd;
+}
+::-webkit-scrollbar-thumb{
+   background-color: rdba(0,0,0,0.5);
+} */
+
+:root {
+  --color--1: rgb(211, 147, 62);
+}
+.slide-image {
+  width: 100%;
+}
+/* .carousel-item h2 {
+  font-size: 15vh;
+  font-family: "Cormorant SC", serif;
+  transition: 1s ease-in;
+}
+.carousel-item span {
+  font-size: 8vh;
+  font-family: "Frank Ruhl Libre", serif;
+}
+.carousel-item h2,
+.carousel-item span:hover {
+  position: relative;
+} */ 
+
+
+.our-service-text h2,
+.our-story-text h2,
+.special-food-text h2,
+.reservation-text h2,
+.lateer-post-text h2,
+.some-word-text h2,
+.short-info-text h2 {
+  font-size: 4em;
+  font-family: "Dancing Script", cursive;
+  color: var(--color--1);
+}
+.our-service-text span,
+.our-story-text span,
+.special-food-text span,
+.lateer-post-text span,
+.some-word-text span,
+.short-info-text span {
+  font-size: 8vh;
+  font-family: "Playfair Display", serif;
+}
+.special-manu {
+  border: 3px double gray;
+  border-radius: 3vh;
+}
+.special-manu:hover {
+  background-color: var(--color--1);
+  transition: 2s;
+}
+.special-manu img {
+  border-radius: 50%;
+}
+.fresh-helthy-back {
+  height: 80vh;
+  background-image: url(../image/background/img-1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fresh-helthy-back h2 {
+  font-size: 10vh;
+  font-family: "Frank Ruhl Libre", serif;
+}
+.dis-sto-a {
+  color: var(--color--1);
+  font-family: "Playfair Display", serif;
+}
+.dis-sto-a:hover {
+  color: black;
+  font-size: 2vh;
+  transition: 0.5s;
+}
+/* .parth-1{
+  animation-fill-mode: forwards;
+}
+
+.parth:hover{
+  transform: scale(1.1);
+  transition-ti;
+  overflow: visible;
+
+}
+.parth{
+  overflow: hidden;
+} */
+
+.up-coming-backimg {
+  background-image: url(../image/background/img-2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.up-coming-text h2 {
+  font-size: 12vh;
+  font-family: "Dancing Script", cursive;
+  color: var(--color--1);
+}
+.up-coming-text span {
+  font-size: 8vh;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+.up-coming-sp span {
+  font-size: 12vh;
+  font-weight: 700;
+  color: #fff;
+}
+.up-coming-sp p {
+  font-size: 4vh;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+.up-coming-s span {
+  font-size: 12vh;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 5vh;
+}
+.up-coming-eve-text h3 {
+  font-size: 6vh;
+  font-family: "Cormorant SC", serif;
+}
+.up-icon-text i,
+.up-icon-text span {
+  font-size: 4vh;
+  font-family: "Cormorant SC", serif;
+}
+.up-pera a {
+  color: #fff;
+}
+.up-pera a:hover {
+  color: var(--color--1);
+  font-size: 2vh;
+  font-weight: 900;
+  transition: 0.5s;
+}
+.special-food-details span {
+  font-size: 4vh;
+  font-family: "Cormorant SC", serif;
+  font-weight: lighter;
+}
+.special-food-price span {
+  color: var(--color--1);
+}
+.special-food-details {
+  border-bottom: 2px solid gray;
+}
+.special-food-menu span {
+  font-size: 3vh;
+  opacity: 50%;
+}
+.book-lable-backimg {
+  background-image: url(../image/background/img-3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+}
+.reservation-text span {
+  font-size: 7vh;
+  font-family: "Playfair Display", serif;
+}
+.form-details input {
+  border-radius: 10vh;
+  padding: 2vh 1vh;
+  margin: 2vh 0;
+  background: transparent;
+}
+.form-btn button {
+  background-color: var(--color--1);
+  color: #fff;
+  padding: 2vh 5vh;
+}
+.latter-post-card {
+  border: none;
+}
+.jim-1 {
+  position: relative;
+  top: -3vh;
+  left: 1vh;
+  transition: all 1s;
+}
+.jim-1:hover {
+  top: -8vh;
+  transform: scale(0.5);
+}
+.lateer-texted h5 {
+  font-size: 3vh;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  margin: 3vh 0;
+}
+.lateer-texted p {
+  font-weight: lighter;
+  font-size: 2.5vh;
+}
+.lateer-texted span {
+  font-size: 2.5vh;
+  font-family: "Playfair Display", serif;
+}
+.card-second-icon a {
+  text-decoration: none;
+  color: black;
+}
+.card-second-icon a:hover {
+  color: var(--color--1);
+  border-bottom: 2px solid tan;
+}
+.some-word-back-img {
+  background-image: url(../image/background/img-4.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.some-word-desi-image-text h4 {
+  color: var(--color--1);
+  font-weight: 600;
+}
+.some-word-desi-img img {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  transition: all 1s;
+  border: 2px groove rgb(229, 209, 183);
+}
+.some-word-desi-img img:hover {
+  top: -5vh;
+}
+.contectus-head-text h2,
+.opning-hover-text h2,
+.instagrame-text h2 {
+  font-size: 5vh;
+  font-family: "Cormorant SC", serif;
+  color: var(--color--1);
+}
+.contectus-icon-text {
+  font-size: 2.5vh;
+  font-family: "Cormorant SC", serif;
+}
+.opning-hover-list ul {
+  line-height: 6vh;
+  font-size: 3vh;
+  font-family: "Cormorant SC", serif;
+}
+.about-pearl-taxt h2,
+.follow-text h2,
+.newsletter h2 {
+  font-size: 5vh;
+  font-family: "Cormorant SC", serif;
+  font-weight: 700;
+}
+.follow ul li i:hover {
+  background-color: var(--color--1);
+  color: #fff;
+  transition: 0.5s;
+}
+.copy-right {
+  background-color: #262526;
+}
+.copy-right-text p {
+  font-size: 2.5vh;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+}
+.copy-right-text span {
+  font-size: 3vh;
+  color: #fff;
+  font-family: "Cormorant SC", serif;
+  color: orange;
+}

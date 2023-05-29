@@ -1,0 +1,49 @@
+@media only screen and (min-width: 320px) {
+  .carousel-item h2 {
+    font-size: 3vh;
+    font-family: "Cormorant SC", serif;
+  }
+  .carousel-item span {
+    font-size: 2vh;
+    font-family: "Frank Ruhl Libre", serif;
+  }
+  .mobile-nav img {
+    width: 50%;
+  }
+  /* .reservation-text span {
+    font-size: 7vh;
+  } */
+}
+@media only screen and (min-width: 576px) {
+  .carousel-item h2 {
+    font-size: 7vh;
+    font-family: "Cormorant SC", serif;
+  }
+  .carousel-item span {
+    font-size: 5vh;
+    font-family: "Frank Ruhl Libre", serif;
+  }
+  .mobile-nav img {
+    width: 10%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .carousel-item h2 {
+    font-size: 10vh;
+    font-family: "Cormorant SC", serif;
+  }
+  .carousel-item span {
+    font-size: 7vh;
+    font-family: "Frank Ruhl Libre", serif;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .carousel-item h2 {
+    font-size: 15vh;
+    font-family: "Cormorant SC", serif;
+  }
+  .carousel-item span {
+    font-size: 8vh;
+    font-family: "Frank Ruhl Libre", serif;
+  }
+}

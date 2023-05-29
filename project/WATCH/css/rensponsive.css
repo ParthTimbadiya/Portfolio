@@ -1,0 +1,18 @@
+@media only screen and (min-width: 320px) {
+  .back_coll_text h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.8rem;
+    text-transform: capitalize;
+    margin: 3vh 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .back_coll_text h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 6rem;
+    text-transform: capitalize;
+    margin: 3vh 0;
+  }
+}

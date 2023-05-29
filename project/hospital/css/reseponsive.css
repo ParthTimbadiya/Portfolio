@@ -1,0 +1,123 @@
+@media only screen and (min-width:320px){
+    .bg-image{
+      height: 80vh;
+    }
+    .navigation {
+      display: none;
+    }
+    
+  .dip-img-text{
+      width: 100%;
+      height: 170vh;
+  }
+  aside{
+      display: block;
+  }
+  .email input{
+      background: transparent;
+  }
+  .email textarea{
+      background: transparent;
+  }
+  .footer-text{
+      height: 220vh;
+      background-color: #111111;
+  }
+}
+
+@media only screen and (min-width:562px){
+    .footer-text{
+        height: 170vh;
+        background-color: #111111;
+    }
+    
+}
+
+
+@media only screen and (min-width:768px){
+  .bg-image{
+      height: 120vh;
+  }
+  .name-box{
+      display: flex;
+      justify-content: center;
+      padding-top: 200px;
+  }
+  .bg-text{
+      padding-left: 160px;
+  }
+  .together{
+      padding: 10px;
+  }
+  .footer-text{
+      height: 160vh;
+      background-color: #111111;
+  }
+}
+
+@media only screen and (min-width:992px) {
+    .navigation ul li{
+        padding: 40px 10px;
+    }
+  .perent-1{
+      position: relative;
+      bottom: 100px;
+  }
+  .bg-text{
+      padding-left: 260px;
+  }
+  .together{
+      padding: 10px;
+      height: 80%;
+  }
+  .footer-text{
+      height: 130vh;
+      background-color: #111111;
+  }
+}
+@media only screen and (min-width:1200px) {
+  .navigation ul li{
+      padding: 20px 20px;
+  }
+  .name-box{
+      padding-top: 200px;
+      padding-right: 400px;
+  }
+  .bg-text{
+      padding-left: 150px;
+  }
+  .together{
+      padding: 10px;
+      height: 80%;
+  }
+  .footer-text{
+      height: 90vh;
+      background-color: #111111;
+  }
+}
+@media only screen and (min-width:1500px){
+  .bg-text{
+      padding-left: 320px;
+
+  }
+  .header-logo{
+      background-color: #fff;
+      animation: myanimation 2s 2;
+  }
+  .manu-wappere{
+      background-color: rgb(249, 250, 250);
+      width: 100%;
+      height: 10vh;
+  } 
+  .together{
+      padding: 10px;
+      height: 80%;
+  }
+  .main-box{
+      margin-left: 50px;
+  }
+  .footer-text{
+      height: 90vh;
+      background-color: #111111;
+  }
+}

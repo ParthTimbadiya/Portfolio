@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.perent{
+    background-image: url(https://rainbowit.net/html/doob/assets/images/header-top/top-banner.png);
+    background-repeat: no-repeat;
+}
+.icon ul li{
+    list-style: none;
+    text-transform: capitalize;
+}
+.navigation ul li{
+    list-style: none;
+    text-transform: capitalize;
+}
+.hearo-section{
+    background-image: url(https://rainbowit.net/html/doob/assets/images/bg/bg-image-13.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.hearo-text{
+    border: 5px double tan;
+}
+.texing ul li{
+    list-style: none;
+}
+.free-quote{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://flexa-react.envytheme.com/images/quote-bg.jpg);
+    background-repeat: no-repeat;
+}
+.form-group{
+    background-color: #151449;
+}
+.about-us{
+    background-color: #f9fbfe;
+}
+
+.insorence h2,.about-text h2,.peace-text h4,.our-text h2,.blog-text h2,.blog-text h4 a{
+    color: purple;
+}
+.peace-img-text{
+    background-color: #effffb;
+}
+.home i{
+    color: #12b48b;
+    font-size: 50px;
+    display: block;
+}
+.quick-quto{
+    background-color: #fff;
+    box-shadow: 2px 2px 4px 2px gray ;
+}
+.com-win-cli-cou{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://flexa-react.envytheme.com/images/counter-bg-6.jpg);
+    background-repeat: no-repeat;
+}
+/* .complet,.wining,.clint,.country{
+    width: 20%;
+    padding: 35px 0px;
+    margin: 40px 0;
+} */
+.complet-sm i,.wining-sm i,.clint-sm i,.country-sm i{
+    box-shadow: 2px 2px 2px 2px black;
+}
+.card-body ul li{
+      list-style: none;
+}
+.fir-text{
+    padding-top: 70px;
+}
+.fir-text ul li{
+    list-style: none;
+}
+.testi{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://flexa-react.envytheme.com/images/testimonial-bg-6.jpg);
+    background-repeat: no-repeat;
+}
+.testi-text ul li{
+    list-style: none;
+}
+
+.call-today ul li,.symbole-icon ul li,.icon-text ul li,.service-head ul li{
+    list-style: none;
+}
+.blog-img img{
+    width: 95%;
+}
+.ftp{
+    background-color: #204066;
+}
+.copyright{
+    background-color: #262566;
+}
+
+
+.card:hover{
+    background-color: tan;
+}
